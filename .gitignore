@@ -27,11 +27,6 @@ hs_err_pid*
 /.vscode
 *.sublime-workspace
 
-# IntelliJ IDEA specific files and directories
-.idea/
-*.iml
-*.iws
-
 # Maven
 log/
 target/
