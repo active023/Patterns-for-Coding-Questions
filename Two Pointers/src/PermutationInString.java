@@ -30,13 +30,11 @@ public class PermutationInString {
                 }
             }
 
-            if (j - i + 1 < s1.length()) {
-                j++;
-            } else {
+            if (j - i + 1 >= s1.length()) {
                 s2FreqMap.put(s2.charAt(i), s2FreqMap.getOrDefault(s2.charAt(i), 0) - 1);
                 i++;
-                j++;
             }
+            j++;
         }
         return false;
     }

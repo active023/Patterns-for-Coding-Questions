@@ -17,10 +17,7 @@ public class SortedColors {
                 swap(nums, mid, end);
                 end--;
             }
-
         }
-
-
     }
 
     private void swap(int[] arr, int i, int j) {
