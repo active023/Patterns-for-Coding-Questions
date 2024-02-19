@@ -23,7 +23,6 @@
 hs_err_pid*
 
 # IDE and editor directories
-/.idea
 /.vscode
 *.sublime-workspace
 
