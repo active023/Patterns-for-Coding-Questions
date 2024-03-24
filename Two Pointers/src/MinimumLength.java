@@ -1,4 +1,4 @@
-public class minimumLength {
+public class MinimumLength {
 
     public int minimumLength(String s) {
         int left = 0;
